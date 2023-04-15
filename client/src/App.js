@@ -23,7 +23,7 @@ function App() {
     return children
   }
   return (
-    <div className={darkMode ? "app dark" : "app"}>
+    <div className={darkMode ? "app dark" : "app" }>
       <BrowserRouter>
         <Routes>
           <Route path='/'>
